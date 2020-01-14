@@ -1,0 +1,30 @@
+{
+  "firstStep": {
+    "choiceList": [
+      {
+        "stepGivenIn": {},
+        "resultsInStep": {
+          "choices": [
+            {
+              "stepGivenIn": {},
+              "resultsInStep": {
+              }
+            }
+          ]
+        }
+      },
+      {
+        "stepGivenIn": {},
+        "resultsInStep": {
+          "choices": [
+            {
+              "stepGivenIn": {},
+              "resultsInStep": {
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

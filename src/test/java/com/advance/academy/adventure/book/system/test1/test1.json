@@ -1,0 +1,41 @@
+{
+  "name": "neshto quest",
+  "story": "Sabujdame se v gorata. Okasyn i izplashen. Poslednoto neshto koeto pomnish , e edna butilka rom . ",
+  "firstStep": {
+    "story": "Izpravqsh se i  vijdash butilkata na zemqta. Kakvo pravish",
+    "choiceLIst": [
+      {
+        "description": "Otpivash ot butilkata",
+        "resultsInStep": {
+          "story": "Sabujdame se v gorata. Okasyn i izplashen. Poslednoto neshto koeto pomnish , e edna butilka rom . ",
+          "choiceList": [
+            {
+              "description": "Otpivash ot butilkata",
+              "resultsInStep": {
+                "story": "Sabujdame se v gorata. Okasyn i izplashen. Poslednoto neshto koeto pomnish , e edna butilka rom . ",
+                "choiceList": [
+                ]
+              }
+            },
+            {
+              "description": "Oglejdash naokolo",
+              "resultsInStep": {
+                "story": "Oglejdash se naokolo i namirash kompaniqta s koqto si doshul i si trugvate",
+                "endsGame": true,
+                "endGameType": "GOOD"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "description": "Oglejdash naokolo",
+        "resultsInStep": {
+          "story": "Oglejdash se naokolo i namirash kompaniqta s koqto si doshul i si trugvate",
+          "endsGame": true,
+          "endGameType": "GOOD"
+        }
+      }
+    ]
+  }
+}
